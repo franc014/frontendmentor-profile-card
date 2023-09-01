@@ -6,25 +6,24 @@ import ProfileCard from "../components/ProfileCard.astro";
 
 <Layout title="Profile card component">
   <main>
-    <div class="wrapper">
-      <ProfileCard />
-    </div>
+    <ProfileCard />
   </main>
 </Layout>
 
 <style>
-  main {
-    margin: auto;
-    padding: 1rem;
-    width: 800px;
-    max-width: calc(100% - 2rem);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
+  body {
+    display: grid;
+    place-items: center;
+    background:
+      -80% -20% / 80% no-repeat url(/images/bg-pattern-top.svg),
+      200% 120% / 80% no-repeat url(/images/bg-pattern-bottom.svg);
   }
 
-  .wrapper {
-    max-width: 80%;
-    margin-inline: auto;
+  @media screen and (min-width: 850px) {
+    body {
+      background:
+        -180% -500px / 80% no-repeat url(/images/bg-pattern-top.svg),
+        550px 350px / 80% no-repeat url(/images/bg-pattern-bottom.svg);
+    }
   }
 </style>
