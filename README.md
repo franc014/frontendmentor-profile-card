@@ -5,5 +5,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Author
 
 - Website - [Francisco Andrade](https://www.jandrade.co)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/franc014)
+- Frontend Mentor - [@franc014](https://www.frontendmentor.io/profile/franc014)
 - Github - [franc014](https://github.com/franc014)
